@@ -1,0 +1,73 @@
+PREGUNTAS UPWORK
+	- ¿para los iniciantes, donde hostear o quien hostea comunmente los trabajos frontent? ¿y los backend?
+	- ¿yo me encargo de los dominios y todo?
+	- ¿cuanto estas cobrando por hora? ¿tengo que tener payoneer de entrada?
+	- ¿alguno hace contratos? ¿alguno tiene un modelo de contrato?
+	- ¿te hiciste monotributista muy pronto o esperaste un poco para ver como te iba?
+	- ¿que me recomendas y no me recomendas ni bien empiece en upwork?
+	- ¿que me recomendas y no me recomendas ni bien empiece en upwork?
+
+
+Portfolio Web: 600-700 words per page is optimal for SEO
+About me:
+- reforzar trabajo y nicho + actividades dentro del mismo + especialidades
+- College and degrees + autodidact + previous work experience
+- Decide which professional experience to include: comunicacion con el cliente 
+importante.
+- Add a few personal details: fotografia + musica
+- Main contact source (just one), and link to services
+- Include a photo of yourself: no muchas, pero almenos 1 o 2
+- Added context for source code: github + figma o canvas segun tus trabajos
+- Front-end developer portfolio, Back-end developer portfolio.
+- Simple projects for community helping: listacompras, paleta colores, 
+custom web components
+- Database Designs
+- Add Internal Links if large page content
+Services: 
+- it allows presenting the services or products offered by a particular brand to 
+potential customers
+- It helps search engines know what's on your site and helps get the right people to 
+your site.
+- Strong keywords and simple description of each service + Detailed information 
+about each service above
+- Include a Relevant, Clear Call to Action: link to contact
+- Focus on Your Customer.
+- Web development services involve everything related to building a web-based 
+solution
+- Add Internal Links if large page content
+Contact: 
+- Mail, work phone, social media, tax code?, 
+Footer: 
+- Copyright
+- Politica de privacidad
+- Main contact
+- Only social media icons
+- Politica de privacidad
+- preguntas frecuentes
+Homepage: 
+- Logo. Your logo should be visible at the top of your website. ...
+- Navigation menu
+- Headline. ...
+- Call to Action: main contact
+- Photos
+- Text Content
+Logos and animations gallery:
+- of current and other projects
+- of lottie gallery, personal or for clients
+
+sandybrown
+gainsboro
+silver
+blurywoook
+slategray
+tan
+wheat
+cadetblue
+
+
+p-5 borrar en main y section, usarlo con mediaqueries, tambien section en servicios galeria
+
+Web Design:
+	- A web designer's job is less about using code to bring a website to life and more about determining
+	 a site's layout, color palette, font set, and visual themes. A web designer would use their knowledge of color
+	 theory and tools like InVision to create mockups, prototyping, and templates when designing a site.

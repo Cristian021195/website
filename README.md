@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Personal Website
+
+The logos links are listed next
+- listacompras: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/lista-compras.svg
+- horabondi: https://raw.githubusercontent.com/Cristian021195/horabondi/05f026c7bb7bebc37bf8fba5feca194f2303e7c6/public/favicon.svg https://raw.githubusercontent.com/Cristian021195/horabondi/05f026c7bb7bebc37bf8fba5feca194f2303e7c6/public/svg/tesa-full.svg https://raw.githubusercontent.com/Cristian021195/horabondi/05f026c7bb7bebc37bf8fba5feca194f2303e7c6/public/svg/icon.svg https://raw.githubusercontent.com/Cristian021195/horabondi/05f026c7bb7bebc37bf8fba5feca194f2303e7c6/public/svg/bus.svg https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/horabondi.svg
+- radio: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/radio-app.svg
+- climap: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/climap.svg
+- escritos: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/escritos.svg
+- notas: https://raw.githubusercontent.com/Cristian021195/notas/8b3ebf2021d3574a00859e6b7a343a3ea89dcf80/public/img/icons/notas.svg
+- panerita: https://raw.githubusercontent.com/Cristian021195/panerita/46cb1a4ef5f91dc4151bd98125706f770ee1ab2a/public/img/camion.svg https://raw.githubusercontent.com/Cristian021195/panerita/46cb1a4ef5f91dc4151bd98125706f770ee1ab2a/public/img/panerita.svg https://raw.githubusercontent.com/Cristian021195/panerita/46cb1a4ef5f91dc4151bd98125706f770ee1ab2a/public/img/panerita-sm.svg /Cristian021195/panerita/blob/main/public/img/icon-512px.png?raw=true /Cristian021195/panerita/blob/main/public/img/icon-192px.png?raw=true https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/panerita.svg
+- portfolio: https://cristian021195.github.io/portfolio/img/favicon.svg 
+- romano: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/romano.svg
+- horabondi-beta: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/horabondi-beta.svg
 
 ## Getting Started
 
