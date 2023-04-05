@@ -11,6 +11,24 @@ The logos links are listed next
 - portfolio: https://cristian021195.github.io/portfolio/img/favicon.svg 
 - romano: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/romano.svg
 - horabondi-beta: https://raw.githubusercontent.com/Cristian021195/portfolio/1a28e005a2c723c0682ad79a65d0dcb85ce86186/img/svg/horabondi-beta.svg
+- website:
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/favico.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-1.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-2.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-3.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-4.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-5.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-6.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-7.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-8.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-10.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-11.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-12.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-13.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-14.svg
+    - https://raw.githubusercontent.com/Cristian021195/website/325b398d621587bfb9a663361bfb4743bde27454/public/logos/logo-15.svg    - 
+    - 
+- 
 
 ## Getting Started
 
