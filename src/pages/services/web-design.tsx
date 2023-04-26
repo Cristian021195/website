@@ -6,46 +6,56 @@ import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
 import { Header, MainDesc } from '@/components/layout'
 import { MainLayout, NoHome } from '../../layouts';
-import { SquareImg } from '@/components/other';
+import { ServiceCard, SquareImg } from '@/components/other';
+import Image from 'next/image';
+import { services_images } from '@/assets/images';
 
 
-export default function WebDesign() {
+export default function WebDesign() { 
   return (
-    <MainLayout title='Web Design'>
+    <MainLayout title='Web & Mail Design'>
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
-            <MainDesc title='Web Design'>
-              <><p className=''>It's an awsome and very util web app, that makes you have control about the buses schedule and travel fees. <br />
-              With the power of service workers and PWA implementations, this app could be acceded on an offline or bad mobile data connection. <br /><br />
-              It has a very low data comsumption and the main benefit of have an centralized data, that way everyone is up to date.
-              </p>
-              <br />
-              <i><b>Application delivered time: </b>3 months</i></>
+            <MainDesc title='Web & Mail Design'>
+              <article className='mt-5 lh-1'>
+                <p>As a web designer's my job is less about using code and tools to bring a website to life.</p>
+                <p>Determining a site's layout, sizes, color palette, font set, and visual themes. I use my knowledge 
+                  and tools to create mockups, prototyping, and templates when designing a site. </p>
+                <p>As a matter of fact, not only website should be designed, also mail, if you want to work with mail promotion sending
+                  A better looking will give you more seriousness, and professionalism, cliets love it</p>
+              </article>
             </MainDesc>
           </div>
-          <div className='col-md-6 d-flex p-5 fade-up'>
-            <section className='mt-10 p-5'>
-              <h2 className='fs-2 mb-4'>Resources</h2>
-              <h3>Gallery</h3>
-              <div className="d-flex flex-wrap p-4 gap-6 mb-4">
-                <SquareImg/>
-                <SquareImg/>
-                <SquareImg/>
-              </div>
-
-              <h3>Technologies and other resources</h3>
-              <div className="d-flex flex-wrap p-4 gap-6 mb-4">
-                <ul>
-                  <li><b>Framework: </b>NextJS</li>
-                  <li><b>Database Engine: </b>MySQL</li>
-                  <li><b>Deploy Platform: </b>Vercel</li>
-                  <li><b>Backend Platform: </b>Railway</li>
-                  <li><b>Additional Packages: </b>NextAuth</li>
-                </ul>
-              </div>
+          <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
+              <Image src={services_images.design} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
+          </div>
+          <div className='col-md-12 col-lg-12 d-flex fade-up'>
+            <section className='mt-10 d-flex flex-wrap gap-4'>
+              <ServiceCard alt='Web Design' title='Web Design' 
+                 image='https://cristian021195.github.io/portfolio/img/others/desktop-layout.svg'>
+                  <div className='lh-1'>
+                    <p>Any website should have an estructure, something that defines where you want each element without giving headaches to those who browser in</p>
+                    <p>If you already have a website but feeling inconfrontable this service is for you.</p>
+                    <p>I use Figma to make designs, the service i will give you is the project an simple assets like preview</p>
+                  </div>
+              </ServiceCard>
+              <ServiceCard alt='Mail image' title='Mail'>
+                  <div className='lh-1'>
+                    <p>This service normally hire people who already have a website, and want to expand the comunication with their clients</p>
+                    <p>I design making mockups, then pass to html code with styles and any images you want making look proffesional not like spaming mails</p>
+                    <p>I use Figma to make designs, the service i will give you is the project an simple assets like preview</p>
+                  </div>
+              </ServiceCard>
             </section>            
           </div>
       </NoHome>
     </MainLayout>
   )
 }
+/*
+<div className='col-md-6 d-flex fade-up outlined'>
+  <section className='mt-10'>
+  </section>
+</div>
+*/

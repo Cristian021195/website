@@ -13,26 +13,25 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {horabondi} from '../../assets/images'
+import {colores} from '../../assets/images'
 
-export default function Horabondi() { // yarn remove react-grid-gallery
+export default function Colores() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);
   return (
-    <MainLayout title='Horabondi'>
+    <MainLayout title='Colores'>
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
-            <MainDesc title='Horabondi'>
+            <MainDesc title='Colores'>
               <div>
-              <p className=''>It's an awsome and very util web app, that makes you have control about the buses schedule and travel fees. <br />
-              With the power of service workers and PWA implementations, this app could be acceded on an offline or bad mobile data connection. <br /><br />
-              It has a very low data comsumption and the main benefit of have an centralized data, that way everyone is up to date.
-              </p>
+              <p className=''>
+              This application was made for a single personal purpose, sometimes i just need a simple color palette quickly as possible and copy the 
+              color. It is a PWA for offline use, made with HTML, CSS and JS only.<br /><br />
               <br />
-              <i><b>Application delivered time: </b>3 months</i>
+              <i><b>Application delivered time: </b>1 day</i><br /></p>
               </div>
               <div className='mt-5'>
-                <a className="btn p-2 bg-pink-0 m-2" target='_blank' href='https://horabondi.vercel.app/'>¡Try It!</a>
-                <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/horabondi'>Go to repository</a>
+                <a className="btn p-2 bg-pink-0" target='_blank' href='https://cristian021195.github.io/notas/'>¡Try It!</a>
+                <a className="btn p-2 bg-lblue-0 m-2" target='_blank' href='https://github.com/Cristian021195/color-palette'>Go to repository</a>
               </div>
             </MainDesc>
           </div>
@@ -44,16 +43,16 @@ export default function Horabondi() { // yarn remove react-grid-gallery
               </div>
               
               <div className="d-flex overflow-x h-scroll p-2 overflow-y gap-1 my-4 view-gallery br-1">
-                <SquareImg alt='Photo' src={horabondi[0]}  />
-                <SquareImg alt='Photo' src={horabondi[1]}  />
-                <SquareImg alt='Photo' src={horabondi[2]}  />
+                <SquareImg alt='Photo' src={colores[2]}  />
+                <SquareImg alt='Photo' src={colores[0]}  />
+                <SquareImg alt='Photo' src={colores[1]}  />
                 <button className='btn bg-pink-0 p-1' style={{position:'absolute'}} onClick={()=>setOpen(true)}>Ver Fotos</button>
               </div>
               <div>
               <Lightbox
                 open={open}
                 close={() => setOpen(false)}
-                slides={horabondi}
+                slides={colores}
                 render={{ slide: GalleryPortfolio }}
               />
               </div>
@@ -61,12 +60,8 @@ export default function Horabondi() { // yarn remove react-grid-gallery
               <h3>Technologies and other resources</h3>
               <div className="d-flex flex-wrap p-4 gap-6 mb-4">
                 <ul>
-                  <li><b>Framework: </b>NextJS</li>
-                  <li><b>Database Engine: </b>MySQL</li>
-                  <li><b>Deploy Platform: </b>Vercel</li>
-                  <li><b>Backend Platform: </b>Railway + PlanetScale</li>
-                  <li><b>Additional Packages: </b>NextAuth</li>
-                  <li><b>Additional Info: </b>Demo service is currently is in sleep mode, if you want test it send me a mail</li>
+                  <li><b>Programing Languajes: </b>JavaScript + HTML + CSS</li>
+                  <li><b>Deploy Platform: </b>Github Pages</li>
                 </ul>
               </div>
             </section>            

@@ -6,33 +6,41 @@ export const ServiceContainer = ({title = "Servicio", desc = "Descripcion del se
     
     if(orientation === 'left'){
         return (
-            <section className='service-card my-5 b-shadow br-0 row d-flex align-items-center' style={{border:'solid 1px whitesmoke'}}>
-                <article className='col-md-6 py-5'>
+            <div  className='my-2 b-shadow br-1 p-3' style={{border:'solid 1px whitesmoke'}}>
+            <section className='service-card'>
+                <article className='col-md-0'>
                     <Image alt='image' src={src} height={200} width={200}/>
                 </article>
-                <article className='col-md-6 py-5'>
+                <article className='col-md-0'>
                     <h2  className='mb-2'>{title}</h2>
                     <p className='mb-4'>{desc}</p>
-                    <Link legacyBehavior href={'/services/'+link}>
-                         <a className='bg-blue-0 p-2 btn mt-4'>Ver mas</a>
-                    </Link>
-                </article>                
+                </article>
             </section>
+            <p className='text-end'>
+                        <Link legacyBehavior href={'/services/'+link}>
+                            <a className='bg-blue-0 p-2 btn mt-4'>View More</a>
+                        </Link>
+            </p>
+            </div>
           )
     }else{
         return (
-            <section className='service-card scl my-5 b-shadow br-0 row d-flex align-items-center' style={{border:'solid 1px whitesmoke'}}>
-                <article className='col-md-6 py-5'>
+            <div className='my-2 b-shadow br-1 p-3' style={{border:'solid 1px whitesmoke'}}>
+                <section className='service-card'>
+                <article className='col-md-0'>
                     <h2  className='mb-2'>{title}</h2>
                     <p className='mb-4'>{desc}</p>
-                    <Link legacyBehavior href={'/services/'+link}>
-                         <a className='bg-blue-0 p-2 btn mt-4'>Ver mas</a>
-                    </Link>
                 </article>   
-                <article className='col-md-6 py-5 text-end'>
+                <article className='col-md-0'>
                     <Image alt='image' src={src} height={200} width={200}/>
                 </article>
             </section>
+            <p className='text-end'>
+                        <Link legacyBehavior href={'/services/'+link}>
+                            <a className='bg-blue-0 p-2 btn mt-4'>View More</a>
+                        </Link>
+                    </p>
+            </div>
           )
     }
 }

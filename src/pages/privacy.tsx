@@ -7,38 +7,65 @@ import localFont from 'next/font/local'
 import { Header, MainDesc } from '@/components/layout'
 import { MainLayout, NoHome } from '../layouts/';
 import Image from 'next/image';
+import { privacy_images } from '@/assets/images';
+import Link from 'next/link';
 
 export default function Privacy() {
   return (
     <MainLayout title='Privacy Policy'>
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
-            <MainDesc title='Privacy Policy'></MainDesc>
+            <MainDesc title='Privacy Policy'>
+              <article className='lh-1 mt-5'>
+                </article>
+            </MainDesc>
           </div>
-          <div className='col-md-6 offset-md-3 d-flex p-5 fade-up flex-wrap'>
+          <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
+              <Image src={privacy_images.main} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
+            </div>
+            <div className='col-md-6 offset-md-3 d-flex p-5 fade-up flex-wrap'>
             <section>
-            <h1>Politica de Privacidad</h1>
           <br />
-          <h2>USO DE INFORMACIÓN</h2>
-            <p>
-              La Aplicación Web no necesita de registro para muchas de sus funciones. Aún asi a nosotros nos gustaría que cada usuario este registrado para tener acceso a todas las funciones correspondientes.<br/><br/>
-              Mas allá de esto, tenemos que informarte que los datos almacenados serán pura y exclusivamente para:
-            </p><br/>
-              <ul className='list-circle'>
-                <li>Guardar preferencias de la aplicación, como favoritos, tamaño de fuente y tema.</li>
-                <li>Guardar texto que es necesario para el uso offline de la aplicación.</li>
-                <li>Cookies de sesión en caso de haberse registrado.</li>
-                <li>Datos de cuenta como nombre, email en caso de haberse registrado.</li>
-                <li>Texto en el portapapeles de su dispositivo en caso de copiar CVU / CBU en &quot;Donaciones&quot;.</li>
+          <h2>INFORMATION USAGE</h2>
+            <article className='mb-5'>
+              <p className='mt-2'>
+                My website not require any previous register to use it, still there, would be good if you read 
+                what data store you browser, and what data comes out when you fill and send a form, change styles, make any payment.
+              </p>
+            </article>
+            <article className='mb-5 lh-1'>
+                <h3 className='mb-2'>FORMS AND DATA SUBMITED</h3>
+                <p>
+                    Contact form will be send only if you fill al the fields, i recommend make shure that check all information, 
+                    and check that you agree to terms and conditions.
+                </p>
+                <p>
+                    All that information goes for a server that comsumes external service so i can read your mail, i will not save
+                    your mail, name or message you will send me, all that will keep in mailbox.
+                </p>
+            </article>
+            <article className='mb-5'>
+                <h3 className='mb-2'>LOCAL DATA</h3>
+                <ul className='ps-4'>
+                  <li>Save website preferences, such as favorites, font size, and theme.</li>
+                  <li>Cookies for analytics, mail an payment services.</li>
+                  <li>Text on your device's clipboard in case of copying mail or other data indexing any sharing function</li>
               </ul>
-              <br/>
-              <p>
-                En el caso del apartado de &quot;Donaciones&quot;, se harán uso de procesadores de pago de servicios externos, por lo tanto, los datos que uses no serán procesados ni guardados por nuestro servicio.
-              </p>
-              <br/>
-              <p>
-                La Aplicación Web es de uso personal, no funciona como blog, ni como red social, por lo tanto, no podrás ver quienes están registrados, comentarios de otros usuarios, a lo único que estarás habilitado es a la función de &quot;Compartir&quot; la app en caso de alguien necesitarla.
-              </p>
+            </article>
+            <article className='mb-5 lh-1'>
+                <h3 className='mb-2'>PAYMENTS</h3>
+                <p>
+                    If you select payment preference, some browsers save payments methods and form fields, my website is not responsable of 
+                    the way browser works.
+                </p>
+                <p>
+                    By other way, certain payments links will send you to that platforms and maybe save cookies, again my website is not responsable of that.
+                </p>
+                <p>
+                    If you have any other concern you can tell me, just go to <Link href="/contact" className='cyan-0'>Contact</Link> section.
+                </p>
+            </article>
             </section>
           </div>
         </NoHome>

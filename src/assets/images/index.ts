@@ -1,1 +1,5 @@
 export * from './portfolio'
+export * from './contact'
+export * from './services'
+export * from './terms'
+export * from './privacy'

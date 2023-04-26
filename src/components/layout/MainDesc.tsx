@@ -7,7 +7,7 @@ interface IProps extends IReactComponentChild{
 export function MainDesc({title='Services', children}:IProps){
     return (
       <section className='main-desc'>
-        <h1 className='fs-3'>{title}</h1>
+        <h1 className='fs-4'>{title}</h1>
         <div>
           {children}
         </div>

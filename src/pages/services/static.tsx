@@ -6,7 +6,9 @@ import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
 import { Header, MainDesc } from '@/components/layout'
 import { MainLayout, NoHome } from '../../layouts';
-import { SquareImg } from '@/components/other';
+import { ServiceCard, SquareImg } from '@/components/other';
+import Image from 'next/image';
+import { services_images } from '@/assets/images';
 
 
 export default function Static() {
@@ -15,36 +17,43 @@ export default function Static() {
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Static Web Development'>
-              <>
-              <p className=''>It's an awsome and very util web app, that makes you have control about the buses schedule and travel fees. <br />
-              With the power of service workers and PWA implementations, this app could be acceded on an offline or bad mobile data connection. <br /><br />
-              It has a very low data comsumption and the main benefit of have an centralized data, that way everyone is up to date.
-              </p>
-              <br />
-              <i><b>Application delivered time: </b>3 months</i>
-              </>
+              <article className='mt-5 lh-1'>
+                <p>
+                  Ocasionally you might only want an informative site, no registratión of clients, shopping cart, 
+                  only share information, like special events, conecterts, presentations. This package include the 
+                  all design process you only select the time you want the site on the web.
+                </p>
+              </article>
             </MainDesc>
           </div>
-          <div className='col-md-6 d-flex p-5 fade-up'>
-            <section className='mt-10 p-5'>
-              <h2 className='fs-2 mb-4'>Resources</h2>
-              <h3>Gallery</h3>
-              <div className="d-flex flex-wrap p-4 gap-6 mb-4">
-                <SquareImg/>
-                <SquareImg/>
-                <SquareImg/>
-              </div>
-
-              <h3>Technologies and other resources</h3>
-              <div className="d-flex flex-wrap p-4 gap-6 mb-4">
-                <ul>
-                  <li><b>Framework: </b>NextJS</li>
-                  <li><b>Database Engine: </b>MySQL</li>
-                  <li><b>Deploy Platform: </b>Vercel</li>
-                  <li><b>Backend Platform: </b>Railway</li>
-                  <li><b>Additional Packages: </b>NextAuth</li>
-                </ul>
-              </div>
+          <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
+              <Image src={services_images.statics} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+                (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
+          </div>
+          <div className='col-md-12 col-lg-12 d-flex fade-up'>
+            <section className='mt-10 d-flex flex-wrap gap-4'>
+              <ServiceCard alt='Sigle Page' title='Single Page' 
+                 image='https://cristian021195.github.io/portfolio/img/others/desktop-layout.svg'>
+                  <div className='lh-1'>
+                    <p>The simplest website, all in one html file, no interactivity, just information in one section.</p>
+                    <p className='mb-1'><b>Usecases: </b></p>
+                    <ul>
+                      <li>Special Promotion for short period of time</li>
+                      <li>Expiration Site information</li>
+                      <li>Organizations sites welcome</li>
+                    </ul>
+                  </div>
+              </ServiceCard>
+              <ServiceCard alt='Medium Package +3' title='Medium Package +3' image='https://cristian021195.github.io/portfolio/img/others/static-med.svg'>
+                  <div className='lh-1'>
+                    <p>Like previous package but with more sections, 3 in total</p>
+                  </div>
+              </ServiceCard>
+              <ServiceCard alt='Pro Package +3' title='Pro Package' image='https://cristian021195.github.io/portfolio/img/others/static-pro.svg'>
+                  <div className='lh-1'>
+                    <p>Many pages sections as you need, all static. All project organized assets and links</p>
+                  </div>
+              </ServiceCard>
             </section>            
           </div>
       </NoHome>

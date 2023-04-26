@@ -7,6 +7,15 @@ import horabondi6 from '../../../public/images/projects/horabondi/main.jpg'
 import horabondi7 from '../../../public/images/projects/horabondi/empresas.jpg'
 import horabondi8 from '../../../public/images/projects/horabondi/contacto.jpg'
 
+import romano1 from "../../../public/images/projects/romano/main.jpeg"
+import romano2 from "../../../public/images/projects/romano/about.jpeg"
+import romano3 from "../../../public/images/projects/romano/eventos.jpeg"
+import romano4 from "../../../public/images/projects/romano/menu.jpeg"
+import romano5 from "../../../public/images/projects/romano/Screenshot_20230331-081103.png"
+import romano6 from "../../../public/images/projects/romano/Screenshot_20230331-081145.png"
+import romano7 from "../../../public/images/projects/romano/Screenshot_20230331-081215.png"
+import romano8 from "../../../public/images/projects/romano/Screenshot_20230331-081233.png"
+
 import horabondi_beta1 from '../../../public/images/projects/horabondi-beta/Screenshot_20221221-152836.png'
 import horabondi_beta2 from '../../../public/images/projects/horabondi-beta/Screenshot_20221221-152843.png'
 import horabondi_beta3 from '../../../public/images/projects/horabondi-beta/Screenshot_20221221-152849.png'
@@ -33,6 +42,11 @@ import notas1 from '../../../public/images/projects/notas/Screenshot_20221221-15
 import notas2 from '../../../public/images/projects/notas/Screenshot_20221221-153035.png'
 import notas3 from '../../../public/images/projects/notas/Screenshot_20221221-153041.png'
 
+import radio1 from '../../../public/images/projects/radio/Screenshot_20230330-162520.png'
+import radio2 from '../../../public/images/projects/radio/Screenshot_20230330-162526.png'
+import radio3 from '../../../public/images/projects/radio/Screenshot_20230330-162537.png'
+import radio4 from '../../../public/images/projects/radio/Screenshot_20230330-162544.png'
+
 import listacompras1 from '../../../public/images/projects/listacompras/Screenshot_20230330-162629.png'
 import listacompras2 from '../../../public/images/projects/listacompras/Screenshot_20221221-153133.png'
 import listacompras3 from '../../../public/images/projects/listacompras/screenshot_1.webp'
@@ -44,6 +58,7 @@ import panerita4 from '../../../public/images/projects/panerita/more.jpg'
 import panerita5 from '../../../public/images/projects/panerita/phone.jpg'
 import panerita6 from '../../../public/images/projects/panerita/phone-login.jpg'
 import panerita7 from '../../../public/images/projects/panerita/profile.jpg'
+import main from '../../../public/portfolio-main.svg'
 
 export const horabondi = [
     horabondi1,horabondi2,horabondi3,horabondi4,horabondi5, horabondi6, horabondi7, horabondi8
@@ -71,3 +86,26 @@ export const listacompras = [
 export const panerita = [
     panerita1, panerita2, panerita3, panerita4, panerita5, panerita6, panerita7
 ]
+
+export const portfolio_main = {
+    main
+}
+
+export const colores = [
+    colores1, colores2, colores3
+]
+
+export const radioapp = [
+    radio1,radio2,radio3,radio4
+]
+
+export const romano = [
+    romano1,
+    romano2,
+    romano3,
+    romano4,
+    romano5,
+    romano6,
+    romano7,
+    romano8
+];

@@ -16,12 +16,17 @@ export interface IMenuItem extends IReactComponentChild{
 export interface ICard extends IReactComponentChild{
     image?:string,
     title:string,
-    time:string,
-    desc:string,
+    time?:string,
+    desc?:string,
     state?:string
     color?:string,
     link?:string,
-    maxWidth?:number
+    maxWidth?:number,
+    bgTop?:string,
+    target?: '_blank' | '_top' |'_parent' | '_self',
+    alt?:string,
+    children?: React.ReactNode
+    animate?:string
 }
 
 export interface ISquareImg extends IReactComponentChild{

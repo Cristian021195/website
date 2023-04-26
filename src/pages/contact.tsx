@@ -10,7 +10,32 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { compartir, copiarTexto } from '@/utils';
 import { PorfolioLogo } from '../components/lottie/PorfolioLogo';
+import { contact_images } from '@/assets/images';
+import Link from 'next/link';
+/*
 
+<Image width={100} height={100} src={contact_images[0]} alt='Contact Image' className='gelatine'/>
+                <Image width={100} height={100} src={contact_images[1]} alt='Contact Image' className='hithere'/>
+                <Image width={100} height={100} src={contact_images[2]} alt='Contact Image' className='pulse'/>
+                <Image width={100} height={100} src={contact_images[3]} alt='Contact Image' className='hithere'/>
+                <Image width={100} height={100} src={contact_images[4]} alt='Contact Image' className='gelatine'/>
+                <Image width={100} height={100} src={contact_images[5]} alt='Contact Image' className='pulse'/>
+
+
+                <div id='c-box-0'>c-box-0</div>
+                <div id='c-box-1'>c-box-1</div>
+                <div id='c-box-2'>c-box-2</div>
+                <div id='c-box-3'>c-box-3</div>
+                <div id='c-box-4'>c-box-4</div>
+                <div id='c-box-5'>c-box-5</div>
+                <div id='c-box-6'>c-box-6</div>
+                <div id='c-box-7'>c-box-7</div>
+                <div id='c-box-8'>c-box-8</div>
+                <div id='c-box-9'>c-box-9</div>
+                <div id='c-box-10'>c-box-10</div>
+                <div id='c-box-11'>c-box-11</div>
+
+* */
 
 export default function Contact() {
   const [submit, setSubmit] = useState<boolean>(true);
@@ -19,29 +44,32 @@ export default function Contact() {
       <NoHome>
           <div className='col-md-6 d-flex fade-up flex-wrap'>
             <MainDesc title='Contact me!'>
-              <>
-              <p>You can contact me by many ways. I'm acttualy in my residense country Argentina (GTM-3), i try to reply as soon as posible your partilcar doubts. <br /><br />
-              If you want to know more about me, you can follow me at Facebook or Instagram, in the near future i will have a personal blog to share my thougts and future projects.
-              </p></>
+              <article className='lh-1 mt-5'>
+              <p>You can contact me by many ways. I'm acttualy in my residense country Argentina (GTM-3), i try to reply as soon as posible your partilcar doubts. </p>
+              <p>If you want to know more about me, you can follow me at Facebook or Instagram, in the near future i will have a personal blog to share my thougts and future projects.</p>
+              </article>
             </MainDesc>
           </div>
-          <div className='col-md-6 d-flex p-5 fade-up'>
-            <section className='mt-10 p-5'>
-              <div style={{widows:200, height:200}}>
-                {/* <PorfolioLogo/> */}
-              </div>
-            </section>            
+          <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
+            <Image src={contact_images[6]} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
-          <div className="col-md-12 mb-5 br-3 bg-white-0">
-            <div className="row">
+          <div className="col-lg-12 col-md-10 offset-md-1 offset-lg-0 mb-5 px-1 contact-form">
+            <div className="row br-3">
             <div className="col-md-6 p-4">
               <h2>Get in Touch</h2>
               <p>You musn't doubt, i want to start a prokect with you!</p> <br />
               <form className='d-flex flex-wrap gap-5'>
-                <input className='br-1 p-2 bg-purple-0' name="name" type="text" placeholder='Enter your name' required maxLength={30}/>
-                <input className='br-1 p-2 bg-purple-0' name="email" type="email" placeholder='Enter your email address' required maxLength={30}/>
-                <textarea className='br-1 p-2 bg-purple-0' name="message" id="message" cols={30} rows={20} placeholder="Enter your message" required maxLength={480}
+                <label htmlFor="name">Name: 
+                  <input className='br-1 p-2 bg-white-0 boder-cyan-2' id="name" name="name" type="text" placeholder='Enter your name' required maxLength={50}/>
+                </label>
+                <label htmlFor="email">Email: 
+                  <input className='br-1 p-2 bg-white-0 boder-cyan-2' id="email" name="email" type="email" placeholder='Enter your email address' required maxLength={50}/>
+                </label>
+                
+                <textarea className='br-1 p-2 bg-white-0 boder-cyan-2' name="message" id="message" cols={30} rows={20} placeholder="Enter your message" required maxLength={480}
                  style={{maxHeight:160}}></textarea>
+                
                 <label htmlFor="terms">
                   <input type="checkbox" name="terms" id="terms" onChange={(e)=>{
                     console.log(e.target.checked)
@@ -51,14 +79,13 @@ export default function Contact() {
                       setSubmit(true);
                     }
                   }}/>
-                  &nbsp;Acepto Los Terminos y Condiciones
+                  &nbsp;I agree to <Link href="/terms" className='cyan-0'>Terms & Conditions</Link>
                 </label>
-                <button type='submit' className='btn-block p-3 bg-purple-1 text-center' disabled={submit}>Submit</button>
+                <button type='submit' className='btn-block p-3 bg-cyan-0 text-center' disabled={submit}>Submit</button>
               </form>
             </div>
             <div className="col-md-6 p-5">
               <div className="flex justify-content-center text-center my-5">
-                <Image width={200} height={200} src='https://picsum.photos/200' alt='Contact Image'/>
               </div>
               <h3>Other ways to contact with me</h3>
               <div className='d-flex flex-wrap gap-2 my-4'>

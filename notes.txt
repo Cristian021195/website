@@ -45,7 +45,7 @@ Footer:
 - Politica de privacidad
 - preguntas frecuentes
 Homepage: 
-- Logo. Your logo should be visible at the top of your website. ...
+- Logo. Your logo should be visible at the top of your website. ... 
 - Navigation menu
 - Headline. ...
 - Call to Action: main contact
@@ -55,19 +55,120 @@ Logos and animations gallery:
 - of current and other projects
 - of lottie gallery, personal or for clients
 
-sandybrown
-gainsboro
-silver
-blurywoook
-slategray
-tan
-wheat
-cadetblue
-
-
-p-5 borrar en main y section, usarlo con mediaqueries, tambien section en servicios galeria
-
 Web Design:
 	- A web designer's job is less about using code to bring a website to life and more about determining
 	 a site's layout, color palette, font set, and visual themes. A web designer would use their knowledge of color
 	 theory and tools like InVision to create mockups, prototyping, and templates when designing a site.
+
+	 - mockups
+	- figma designs
+	- mail promotional prototypes
+	- responsive
+
+
+# EN TODAS LAS SECCIONES AGREGAR CALL TO ACTION A CONTACTO O COPIA DE MAIL
+Web express (Static Web development): para publicitar tu sitio online 
+	- domain
+	- support assistance
+	- common design
+	- linked to all social media
+	- form & chat
+	- single page website
+	- responsive
+	-Sitios Web Profesionales
+	- source code
+	- slider / banner
+	- ssl
+	- no mail
+	- only frontend
+	
+
+Web intermedia	(Dynamic Web Development)
+	- Diseño a medida
+	- 10 Secciones
+	- linked to all social media
+	- form & chat
+	- support assistance
+	- Confección de mailing, y banners
+	-Sitios Web Profesionales
+	-Contenidos Auto-Administrables
+	- source code
+	- Preguntas al Vendedor. Función que permite al comprador poder hacer preguntas específicas acerca de un producto antes de efectivizar una compra.
+	- slider / banner
+	- ssl
+	- 1 mails
+	- offline features
+
+Web corporativa	(Dynamic Web Development | Web Application)
+	- Diseño a medida
+	- Sitio autogestionable
+	- Secciones que necesites
+	- linked to all social media
+	- form & chat
+	- support assistance
+	- blog
+	-Sitios Web Profesionales
+	-Contenidos Auto-Administrables
+	-source code
+	- Catálogo de Productos / Servicios
+	- Integración Pasarelas de Pago
+	- CMS para Editoriales Virtuales and Panel
+	- Preguntas al Vendedor. Función que permite al comprador poder hacer preguntas específicas acerca de un producto antes de efectivizar una compra.
+	- slider / banner
+	- ssl
+	- 3 mails
+	- offline features
+	- push notifications
+
+Web Maintenance
+	- Change old style website making look like brand new
+	- Adding responsive if is not
+	- Adding new sections, functionalities
+	- Fixing server or deploy common errors
+	- Database backups and restoring
+	- Passing from Excel (xls, xlsx, ods) to sql files
+	- Fixing Api common errors
+	- Changing broken images or urls, adding new ones in better format
+
+Api Rest Application
+	- All backend related design
+	- Connection to MySql and Oracle Databases
+	- Middlewares securitation
+	- Authentications JWT
+	- Documentation added
+
+Wordpress
+	- updating wordpress pluggins
+	- fixing common errors
+	- backups
+	- new websites, deploy, online shop
+
+Web & Mail Design:
+	- mockups
+	- figma designs
+	- mail promotional prototypes
+
+Logos & Logo Animations
+	- jpg & png simple
+	- svg files, figma projects
+	- lottie files (animated logos)	
+	- custom animations for websites
+
+
+Importante desc : 
+	- Su sitio web tiene que impresionar a sus visitantes en tan solo unos segundos. Si funciona lento, si se siente obsoleto
+	- Obtenga más tráfico del sitio web, más clientes y más visibilidad en línea con potentes servicios de SEO.
+
+Proceso
+	Planificacion: estudiamos tu caso, lo que necesitas, quieres hacer o vender, y te asosoramos.
+	Propuesta: Diseñamos una propuesta en base a las ideas y lo charlado antes de empezar a construir
+	Desarrollo: Diseñamos el sitio y configuramos la tienda y sus funcionalidades
+	Revision: Completamos y comprobamos el procesos de compra
+	Entrega: hacemos la migracion de tu producto a mundo
+
+Logotipos (word, lettermark, wordmark), isotipos (symbol, pictorial mark), imagotipo (mascot logo), isologo, emblem logo
+Confección de mailing, y banners
+Nuestro principal objetivo es ayudarlo a definir su identidad para así transformarla en una marca reconocible por el publico.
+Brindamos una solución creativa y dinámica a la comunicación visual corporativa, desarrollando una sólida identidad marcaria.
+Soluciones Digitales a la medida de su empresa, comunicación en manos de profesionales para el desarrollo de su pagina.
+	

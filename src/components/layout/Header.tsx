@@ -3,6 +3,7 @@ import { ActiveLink } from '../ui'
 import localFont from 'next/font/local';
 import { useState } from 'react';
 import { MenuIcon } from '../other';
+import Link from 'next/link';
 
 const myFont = localFont({ src: '../../fonts/PTSans-Regular.woff2'}) // https://cristian021195.github.io/portfolio/img/favicon.svg
 
@@ -12,7 +13,9 @@ export const Header = () => {
     <>
       <header className={`${myFont.className} p-4 d-flex align-items-center`}>
           <div className='d-flex align-content-center me-5' id='top'>
-              <Image alt='Logo' src={'/logos/logo-15.svg'} priority width={36} height={36}/>
+              <Link href="/" legacyBehavior>
+                <Image alt='Logo' src={'/logos/logo-15.svg'} priority width={36} height={36}/>
+              </Link>
           </div>
           <ul className='d-none d-md-flex ms-4'>
               <li><ActiveLink alias='Home' anchor='/' active='menu'/></li>
