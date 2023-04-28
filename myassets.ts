@@ -16,7 +16,7 @@ import horabondi7 from './public/images/projects/horabondi/empresas.jpg'
 import horabondi8 from './public/images/projects/horabondi/contacto.jpg'
 
 import romano1 from "./public/images/projects/romano/main.jpeg"
-import romano2 from "./public/images/projects/romano/about.jpeg"
+import romano2 from "./public/images/projects/romano/about.jpeg"    
 import romano3 from "./public/images/projects/romano/eventos.jpeg"
 import romano4 from "./public/images/projects/romano/menu.jpeg"
 import romano5 from "./public/images/projects/romano/Screenshot_20230331-081103.png"
