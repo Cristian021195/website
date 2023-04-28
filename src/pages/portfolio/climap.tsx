@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {climap} from '../../assets/images'
+import {climap} from '../../../myassets'
 
 export default function Climap() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);

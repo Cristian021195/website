@@ -8,7 +8,7 @@ import { Header, MainDesc } from '@/components/layout'
 import { MainLayout, NoHome } from '../../layouts';
 import { Card, HorizontalCard } from '@/components/other';
 import Image from 'next/image';
-import { portfolio_main } from '@/assets/images';
+import { portfolio_main } from '../../../myassets';
 import { IconTooltip } from '../../components/other/IconTooltip';
 
 
@@ -24,7 +24,7 @@ export default function Portfolio() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-            <Image src={portfolio_main.main} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+            <Image src={portfolio_main.pmain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
           

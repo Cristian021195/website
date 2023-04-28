@@ -7,7 +7,7 @@ import localFont from 'next/font/local'
 import { Header, MainDesc } from '@/components/layout'
 import { MainLayout, NoHome } from '../layouts/';
 import Image from 'next/image';
-import { privacy_images } from '@/assets/images';
+import { privacy_images } from '../../myassets';
 import Link from 'next/link';
 
 export default function Privacy() {
@@ -21,7 +21,7 @@ export default function Privacy() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-              <Image src={privacy_images.main} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+              <Image src={privacy_images.privmain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
                 (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
             </div>
             <div className='col-md-6 offset-md-3 d-flex p-5 fade-up flex-wrap'>

@@ -7,7 +7,7 @@ import localFont from 'next/font/local'
 import { Header, MainDesc } from '@/components/layout'
 import { MainLayout, NoHome } from '../layouts';
 import Image from 'next/image';
-import { terms_images } from '@/assets/images';
+import { terms_images } from '../../myassets';
 
 export default function Page404() {
   return (

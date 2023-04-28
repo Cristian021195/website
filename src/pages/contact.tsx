@@ -10,7 +10,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { compartir, copiarTexto } from '@/utils';
 import { PorfolioLogo } from '../components/lottie/PorfolioLogo';
-import { contact_images } from '@/assets/images';
+import { contact_images } from '../../myassets';
 import Link from 'next/link';
 /*
 

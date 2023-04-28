@@ -3,7 +3,7 @@ import { MainDesc } from '@/components/layout'
 import Image from 'next/image'
 import { MainLayout, NoHome } from '../../layouts/';
 import { ServiceContainer } from '@/components/other'
-import { services_images } from '@/assets/images'
+import { services_images } from '../../../myassets'
 
 export default function Services() {
   return (
@@ -18,7 +18,7 @@ export default function Services() {
             </MainDesc>
           </div>
           <div className='col-md-6 d-flex p-5 justify-content-center fade-up my-5'>
-            <Image src={services_images.main} alt='Contact Image' sizes="(max-width: 768px) 100vw,
+            <Image src={services_images.smain} alt='Contact Image' sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw, 33vw" style={{ minWidth: '60%', height: 'auto' }}/>
           </div>
           <div className='offset-md-0 d-flex gap-5 justify-content-center flex-wrap fade-up'>

@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {radioapp} from '../../assets/images'
+import {radioapp} from '../../../myassets'
 
 export default function RadioApp() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);

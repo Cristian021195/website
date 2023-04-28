@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {panerita} from '../../assets/images'
+import {panerita} from '../../../myassets'
 
 export default function Panerita() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);

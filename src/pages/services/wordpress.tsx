@@ -5,7 +5,7 @@ import { MainDesc } from '@/components/layout';
 import { MainLayout, NoHome } from '../../layouts';
 import { ServiceCard, SquareImg } from '@/components/other';
 import Image from 'next/image';
-import { services_images } from '@/assets/images';
+import { services_images } from '../../../myassets';
 
 
 export default function Wordpress() {

@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {notas} from '../../assets/images'
+import {notas} from '../../../myassets'
 
 export default function Notas() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);

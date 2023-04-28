@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {colores} from '../../assets/images'
+import {colores} from '../../../myassets'
 
 export default function Colores() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);

@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {horabondi} from '../../assets/images'
+import {horabondi} from '../../../myassets'
 
 export default function Horabondi() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);

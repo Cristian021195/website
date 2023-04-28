@@ -13,7 +13,7 @@ import { SquareImg } from '@/components/other';
 import {GalleryPortfolio} from '../../components/ui/';
 import { useState } from 'react';
 
-import {romano} from '../../assets/images'
+import {romano} from '../../../myassets'
 
 export default function Romano() { // yarn remove react-grid-gallery
   const [open, setOpen] = useState(false);
